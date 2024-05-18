@@ -1,0 +1,47 @@
+.common {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+#html {
+  color: #e44d26;
+}
+#css {
+  color: #214ce5;
+}
+#java {
+  color: #f0dc55;
+}
+
+#tailwind {
+  color: #38bdf8;
+}
+#react {
+  color: #087a9f;
+}
+
+/* attribute selector */
+[attribute] {
+  background-color: rgb(150, 118, 118);
+}
+.common:hover {
+  color: #214ce5;
+}
+
+ul li {
+  color: rgb(190, 170, 42);
+  font-size: 25px;
+}
+ul > h3 {
+  font-size: 30px;
+  color: rgb(131, 32, 218);
+}
+ul > h3 + h2 {
+  font-size: 30px;
+  color: rgb(32, 131, 218);
+}
+
+div ~ p {
+  color: crimson;
+  font-size: 25px;
+}
